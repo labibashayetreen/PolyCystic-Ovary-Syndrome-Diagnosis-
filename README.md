@@ -1,89 +1,40 @@
 # PolyCystic-Ovary-Syndrome-Diagnosis-
-# Project Title
-
-Brief description of your project.
 
 ## Introduction
 
-Provide a brief introduction to the project, including its purpose and goals.
+Polycystic Ovary Syndrome (PCOS) is a prevalent hormonal disorder affecting individuals of reproductive age, characterized by irregular menstrual cycles, elevated androgen levels, and polycystic ovaries. This project is dedicated to advancing our understanding of PCOS through data analysis and machine learning techniques, with the ultimate goal of enhancing diagnostic accuracy and contributing to improved patient care.
 
-## Data Overview
+## Purpose
 
-Describe the dataset you are working with and provide any relevant details.
+The primary purpose of this project is to explore and analyze a comprehensive dataset related to PCOS, uncovering patterns, trends, and potential diagnostic indicators. By employing statistical methods, visualizations, and machine learning models, we aim to extract valuable insights that can aid in early detection and personalized treatment strategies for individuals with PCOS.
 
-## Exploratory Data Analysis
 
-### Patterns of Length of the Menstrual Cycle
+## Objectives
+Exploratory Data Analysis (EDA): Delve into features like menstrual cycle length, Body Mass Index (BMI), and irregularities in menstruation for pattern identification and correlation exploration.
 
-- **Descriptive Statistics:**
-  - Calculate descriptive statistics (mean, median, standard deviation) for the length of the menstrual cycle.
+Descriptive Statistics: Calculate essential statistics, including means, medians, and standard deviations, to understand central tendencies and variations in the dataset.
 
-- **Visualization:**
-  - Create visualizations such as histograms or box plots to understand the distribution of the length of the menstrual cycle.
+Model Development: Construct a Random Forest classifier for PCOS diagnosis, employing machine learning techniques and fine-tuning hyperparameters for optimal performance.
 
-### Patterns of BMI
+Visualization: Generate informative visuals like correlation heatmaps and distribution plots to effectively communicate findings.
 
-- **Descriptive Statistics:**
-  - Calculate descriptive statistics for BMI.
+Contributions to PCOS Understanding: Contribute insights derived from data analysis to the broader understanding of PCOS, potentially leading to improved diagnostic tools and treatment strategies.
 
-- **Visualization:**
-  - Use visualizations like histograms or box plots to explore the distribution of BMI.
-
-### Patterns of Irregularity in Menstruation
-
-- **Categorical Analysis:**
-  - Explore the distribution of irregularity in menstruation.
-  - Create bar charts or pie charts to visualize the proportions of regular and irregular cases.
-
-### Age Distribution
-
-- Explore the distribution of ages in the dataset.
-- Create visualizations to understand the age demographics.
-
-## Data Visualizations
-
-Include code snippets for key visualizations:
-
-- Heatmap for the correlation matrix.
-- Distribution of follicles in both ovaries.
-- Scatter plot of follicles in both ovaries.
-
-## Model Building
-
-### Steps involved in Model Building:
-
-1. Assigning values to features as X and target as y.
-2. Split test and training sets.
-3. Fitting a vanilla model as the base Random Forest model.
-4. Hyperparameter tuning using GridSearch CV.
-5. Fitting the final model.
-6. Evaluating the confusion matrix.
-7. Evaluating the classification report.
-
-### Hyperparameter Tuning
-
-Provide details on the hyperparameter tuning process using GridSearch CV, including the parameters you explored and the best parameters obtained.
-
-## Conclusion
-
-Summarize your findings and any insights gained from the exploratory data analysis. Mention any challenges faced and potential future work.
-
-## Dependencies
-
-List the main dependencies and versions used in your project.
-
-## How to Run
-
-Provide instructions on how to run your code, including any specific setup or configuration needed.
-
-## Acknowledgments
-
-Acknowledge any external libraries, resources, or datasets used in your project.
-
-## License
-
-Specify the license under which your project is shared.
+![PCOS Image](images/blog-pcos-1.jpeg)
 
 
 
- 
+## Dataset
+
+This project relies on the [Polycystic Ovary Syndrome (PCOS) Dataset], a comprehensive collection of physical and clinical parameters related to PCOS and infertility issues. The data were sourced from 10 different hospitals across Kerala, India.
+
+### Dataset Details
+
+- **Name:** Polycystic Ovary Syndrome (PCOS) Dataset
+- **Source:** Collected from 10 hospitals across Kerala, India
+- **Purpose:** Diagnosis of PCOS and infertility-related issues
+
+### References
+
+- https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos/data
+
