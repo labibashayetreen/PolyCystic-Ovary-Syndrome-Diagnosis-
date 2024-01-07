@@ -24,13 +24,7 @@ Visualization: Generate informative visuals like correlation heatmaps and distri
 
 ## Dataset
 
-This project relies on the [Polycystic Ovary Syndrome (PCOS) Dataset], a comprehensive collection of physical and clinical parameters related to PCOS and infertility issues. The data were sourced from 10 different hospitals across Kerala, India.
-
-### Dataset Details
-
-- **Name:** Polycystic Ovary Syndrome (PCOS) Dataset
-- **Source:** Collected from 10 hospitals across Kerala, India
-- **Purpose:** Diagnosis of PCOS and infertility-related issues
+This project relies on the [Polycystic Ovary Syndrome (PCOS) Dataset], a comprehensive collection of physical and clinical parameters related to PCOS and infertility issues. The data were sourced from 10 different hospitals across Kerala, India
 
 ### References
 
