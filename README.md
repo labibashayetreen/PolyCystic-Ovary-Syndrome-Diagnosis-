@@ -18,8 +18,6 @@ Model Development: Construct a Random Forest classifier for PCOS diagnosis, empl
 
 Visualization: Generate informative visuals like correlation heatmaps and distribution plots to effectively communicate findings.
 
-Contributions to PCOS Understanding: Contribute insights derived from data analysis to the broader understanding of PCOS, potentially leading to improved diagnostic tools and treatment strategies.
-
 ![PCOS Image](blog-pcos-1.jpeg)
 
 
